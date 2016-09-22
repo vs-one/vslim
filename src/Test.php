@@ -1,12 +1,12 @@
 <?php
 
-namespace First;
+namespace Vslim;
 
 class Test {
 
  public function __construct()
  {
-   echo "First test with Git";
+   echo "Vslim test with Git";
  }
 
 }
