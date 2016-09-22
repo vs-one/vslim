@@ -1,0 +1,22 @@
+{
+    "name": "svincentiwm/first",
+    "type": "library",
+    "description": "My first test",
+    "keywords": [],
+    "homepage": "https://github.com/svincentiwm/first",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Svincent IWM",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "First\\": "src/"
+        }
+    }
+}
