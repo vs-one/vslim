@@ -16,7 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Vslim\\": "src/"
+            "Vslim\\": "src/",
+            "App\\": "app/src"
         }
+    },
+    "require": {
+        "slim/slim": "^3.5",
+        "slim/twig-view": "^2.1",
+        "slim/flash": "^0.1.0"
     }
 }
