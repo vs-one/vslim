@@ -1,13 +1,13 @@
 {
-    "name": "svincentiwm/first",
+    "name": "vs-one/vslim",
     "type": "library",
-    "description": "My first test",
-    "keywords": [],
-    "homepage": "https://github.com/svincentiwm/first",
+    "description": "Tools for Slim3",
+    "keywords": ["Slim3"],
+    "homepage": "https://github.com/vs-one/vslim",
     "license": "MIT",
     "authors": [
         {
-            "name": "Svincent IWM",
+            "name": "VS One",
             "role": "Developer"
         }
     ],
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "First\\": "src/"
+            "Vslim\\": "src/"
         }
     }
 }
